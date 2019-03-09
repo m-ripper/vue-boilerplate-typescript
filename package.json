@@ -8,19 +8,29 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.6.1",
     "vue": "^2.6.6",
+    "vue-axios": "^2.1.4",
     "vue-class-component": "^6.0.0",
+    "vue-i18n": "^8.0.0",
     "vue-property-decorator": "^7.0.0",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "vuex-persist": "^2.0.0"
   },
   "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@types/webpack": "^4.4.0",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-typescript": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.2",
     "sass-loader": "^7.1.0",
     "typescript": "^3.2.1",
-    "vue-template-compiler": "^2.5.21"
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-cli-plugin-i18n": "^0.5.2",
+    "vue-template-compiler": "^2.5.21",
+    "vuex-module-decorators": "^0.9.8"
   }
 }

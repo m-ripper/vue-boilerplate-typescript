@@ -1,27 +1,49 @@
-# vue-js-boilerplate
+# Vue.js Starter, Typescript, Vuex, Vue-Router, Element-UI, i18n, axios
+
+A typescript starter for Vue.js with Vue CLI 3.x that uses:
+- vuex
+- vue-router
+- Element-UI
+- i18n
+- axios
+- ...
+
+## Requirements
+- Node.js (npm)
+
+
+## Installation
+```
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+```
 
 ## Project setup
 ```
+npm install
+# OR
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
+npm run serve
+# OR
 yarn run serve
 ```
 
 ### Compiles and minifies for production
 ```
+npm run build
+# OR
 yarn run build
-```
-
-### Run your tests
-```
-yarn run test
 ```
 
 ### Lints and fixes files
 ```
+npm run lint
+# OR
 yarn run lint
 ```
 
