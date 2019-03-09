@@ -1,4 +1,4 @@
-# Vue.js Boilerplate, Typescript, Vuex, Vue-Router, Element-UI, i18n, axios
+# Vue.js Boilerplate, Typescript, Vuex, Vue-Router, Element-UI, i18n, axios, Font Awesome
 
 A typescript boilerplate for Vue.js with Vue CLI 3.x that uses:
 - vuex
@@ -6,6 +6,7 @@ A typescript boilerplate for Vue.js with Vue CLI 3.x that uses:
 - Element-UI
 - i18n
 - axios
+- Font Awesome
 - ...
 
 ## Requirements
