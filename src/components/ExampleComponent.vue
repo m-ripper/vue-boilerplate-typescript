@@ -1,6 +1,9 @@
 <template>
 	<div>
-		<h3>{{$t('exampleComponent.title')}}</h3>
+		<h3>
+			<font-awesome-icon icon="home"></font-awesome-icon>
+			{{$t('exampleComponent.title')}}
+		</h3>
 	</div>
 </template>
 

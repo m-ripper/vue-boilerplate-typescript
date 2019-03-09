@@ -8,11 +8,17 @@ import VueAxios from 'vue-axios';
 import Element from 'element-ui';
 import Component from 'vue-class-component';
 import DefaultLayout from '@/layouts/DefaultLayout.vue';
-/*
- element-ui locale
- -> this might have to be changed later on to work with the localization-module.
-*/
+// element-ui locale
 import locale from 'element-ui/lib/locale/lang/en';
+// font-awesome-icon
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {faHome} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome';
+
+library.add(faHome);
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
+
 
 // Install plugins & modules
 Vue.use(VueAxios, axios);
