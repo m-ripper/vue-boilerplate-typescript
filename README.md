@@ -34,7 +34,7 @@ This is the way I personally structure Vue.js projects. Feel free to modify it t
 - :file_folder: `layouts`: Contains all `Vue`-Layouts that can be set in the `vue-router`.
 - :file_folder: `models`: Contains all models needed for the business logic.
 - :file_folder: `requests`: Contains all requests needed for communicating with the API.
-- :file_folder: `rules`: Contains reusable validation rules.
+- :file_folder: `rules`: Contains all reusable validation rules.
 - :file_folder: `services`: Contains all services that fulfill web-requests.
 - :file_folder: `store`: Contains all modules that are being used by the `vuex`-store.
 - :file_folder: `style`: Contains all stylesheets.
