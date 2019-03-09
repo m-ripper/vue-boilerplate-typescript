@@ -1,6 +1,6 @@
-# Vue.js Starter, Typescript, Vuex, Vue-Router, Element-UI, i18n, axios
+# Vue.js Boilerplate, Typescript, Vuex, Vue-Router, Element-UI, i18n, axios
 
-A typescript starter for Vue.js with Vue CLI 3.x that uses:
+A typescript boilerplate for Vue.js with Vue CLI 3.x that uses:
 - vuex
 - vue-router
 - Element-UI
