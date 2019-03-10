@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue} from 'vue-property-decorator';
+    import {Component, Vue, Watch} from 'vue-property-decorator';
     import {SupportedLocale} from './store/modules/LocalizationModule';
 
     const defaultLayout = 'default';
@@ -20,6 +20,15 @@
 
         get layout() {
             return ((this.$route.meta as any).layout || defaultLayout) + '-layout';
+        }
+
+        public mounted() {
+            this.$i18n.locale = this.locale;
+        }
+
+        @Watch('locale')
+        public onLocaleChange(locale: SupportedLocale) {
+            this.$i18n.locale = locale;
         }
     }
 </script>
